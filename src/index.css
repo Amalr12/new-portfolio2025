@@ -1,0 +1,42 @@
+@import "tailwindcss";
+*{
+font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+#image{
+ background-color: rgba(0, 0, 0, 0.616);
+
+}
+.title {
+ font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+/* #skillcard:hover{
+  transform: translateY("-10px");
+  border-color: yellow;
+  box-shadow: "0 10px 30px var(--accent-glow)";
+} */
+.smoke {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6); /* light smoke */
+  pointer-events: none;
+  filter: blur(8px);
+  animation: smokeAnim 0.8s linear forwards;
+}
+
+@keyframes smokeAnim {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
