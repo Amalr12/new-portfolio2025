@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -6,9 +6,13 @@ import { FaBootstrap, FaCss3Alt, FaGitAlt, FaHtml5, FaNode, FaReact } from "reac
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { IoLogoAngular, IoLogoJavascript } from 'react-icons/io';
 import { SiExpress, SiMongodb } from 'react-icons/si';
+import AOS from 'aos';
 
 
 function Skill() {
+    useEffect(() => {
+    AOS.init({ duration: 900, once: true });
+  }, []);
   return (
     <>
       <Header />
@@ -29,10 +33,10 @@ function Skill() {
                 </div>
             </div>
     </div> */}
-      <h1 className='text-center mt-5 text-4xl'>Skills</h1>
-      <section className="max-w-6xl mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 gap-20 ">
+      <h1 className='text-center mt-5 text-4xl' >Skills</h1>
+      <section className="max-w-6xl mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 gap-20 " data-aos="fade-up">
 
-        <div id='skillcard' className="group shadow-2xl p-5 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)]">
+        <div id='skillcard' className="group shadow-2xl p-5 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)]" >
           <h2 className="text-3xl font-bold text-gray-300 " style={{ WebkitTextStroke: "3px black" }}>01</h2>
           <div className="flex items-center justify-between mt-4">
             <h3 className="text-3xl font-bold">HTML</h3>

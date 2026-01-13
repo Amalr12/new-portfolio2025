@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { FaPhone, FaPhoneVolume } from 'react-icons/fa'
@@ -6,8 +6,13 @@ import { MdEmail } from 'react-icons/md'
 import { FaLocationDot } from 'react-icons/fa6'
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
+import AOS from 'aos'
 
 function Contact() {
+
+    useEffect(() => {
+    AOS.init({ duration: 900, once: true });
+  }, []);
 
   const form = useRef();
 
@@ -38,7 +43,7 @@ function Contact() {
     <>
       <Header />
       <div className='bg-gray-400'>
-        <div className="grid grid-cols-2 ">
+        <div className="grid grid-cols-2 " data-aos="fade-up">
 
           <form ref={form} onSubmit={sendEmail} className='bg-gray-500 space-y-6 p-5 m-10 shadow-2xl'>
             <h1 className='text-3xl'>Let's Work Together..</h1>

@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaGithub, FaLinkedin, FaPhoneVolume, FaRegUser } from 'react-icons/fa'
 import { MdMail } from 'react-icons/md'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+    useEffect(() => {
+        AOS.init({ duration: 900, once: true });
+      }, []);
   return (
     <>
     <Header/>
      <div id='about' className="p-10  h-full bg-cover bg-center bg-gray-300" >
-        <div className="grid md:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 gap-10" data-aos="fade-up">
 
           <div className='mt-10'>
             <img className='h-full w-full' src="/mypicsit.jpeg" alt="" />

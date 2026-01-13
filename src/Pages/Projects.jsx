@@ -22,11 +22,54 @@ function Projects() {
           <div>
             <h1 className="text-6xl font-bold text-gray-600 mb-4">01</h1>
 
+            <h2 className="text-3xl font-semibold mb-4">MERN Project</h2>
+            <h1 className='text-2xl text-green-400 font-bold'>DOCPULSE</h1>
+
+            <p className="text-gray-400 leading-relaxed mb-6">
+              Patients Records Management System Website using HTML,CSS and React.js with CRED operations,It stores the Records of the Patients in a Hospital</p>
+           
+
+            <p className="text-green-400 font-medium mb-8">
+              Html 5, Css 3, Javascript,React.js,MongoDB,Node.js,Express.js
+            </p>
+
+
+            <div className="flex gap-4">
+              <Link to={"https://docpulse-frontend.vercel.app/"} >
+                <button className="w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition">
+                  <FiArrowUpRight size={22} />
+                </button>
+              </Link >
+
+              <Link to={"https://github.com/Amalr12/docpulse-frontend.git"}>
+                <button className="w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition">
+                  <FiGithub size={22} />
+                </button>
+              </Link>
+            </div>
+          </div>
+
+
+          <div className="flex justify-center">
+            <img
+              src="/Docpulse.png"
+              alt="Project screenshot"
+              className="rounded-xl shadow-lg border border-white/10"
+            />
+          </div>
+
+        </div>
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center" data-aos="fade-up">
+
+
+          <div>
+            <h1 className="text-6xl font-bold text-gray-600 mb-4">01</h1>
+
             <h2 className="text-3xl font-semibold mb-4">Frontend Project</h2>
             <h1 className='text-2xl text-green-400 font-bold'>EMPLOYEE MANAGEMENT SYSTEM</h1>
 
             <p className="text-gray-400 leading-relaxed mb-6">
-              Employee Management System Website using HTML,CSS and React with CRED operations,It shows the details of the Employees and company</p>
+              Employee Management System Website using HTML,CSS and React.js with CRED operations,It shows the details of the Employees and company</p>
            
 
             <p className="text-green-400 font-medium mb-8">
