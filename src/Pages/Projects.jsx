@@ -63,7 +63,7 @@ function Projects() {
 
 
           <div>
-            <h1 className="text-6xl font-bold text-gray-600 mb-4">01</h1>
+            <h1 className="text-6xl font-bold text-gray-600 mb-4">02</h1>
 
             <h2 className="text-3xl font-semibold mb-4">Frontend Project</h2>
             <h1 className='text-2xl text-green-400 font-bold'>EMPLOYEE MANAGEMENT SYSTEM</h1>
@@ -106,7 +106,7 @@ function Projects() {
 
 
           <div>
-            <h1 className="text-6xl font-bold text-gray-600 mb-4">02</h1>
+            <h1 className="text-6xl font-bold text-gray-600 mb-4">03</h1>
 
             <h2 className="text-3xl font-semibold mb-4">Frontend Project</h2>
             <h1 className='text-2xl text-green-400 font-bold'>TODO App</h1>
@@ -149,7 +149,7 @@ function Projects() {
 
 
           <div>
-            <h1 className="text-6xl font-bold text-gray-600 mb-4">03</h1>
+            <h1 className="text-6xl font-bold text-gray-600 mb-4">04</h1>
 
             <h2 className="text-3xl font-semibold mb-4">Frontend Project</h2>
             <h1 className='text-2xl text-green-400 font-bold'>EDUHUB</h1>
@@ -192,7 +192,7 @@ function Projects() {
 
 
           <div>
-            <h1 className="text-6xl font-bold text-gray-600 mb-4">04</h1>
+            <h1 className="text-6xl font-bold text-gray-600 mb-4">05</h1>
 
             <h2 className="text-3xl font-semibold mb-4">Frontend Project</h2>
             <h1 className='text-2xl text-green-400 font-bold'>SOUL ROUTES</h1>
