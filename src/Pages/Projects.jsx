@@ -224,7 +224,7 @@ function Projects() {
 
           <div className="flex justify-center">
             <img
-              src="public/souls.png"
+              src="/souls.png"
               alt="Project screenshot"
               className="rounded-xl shadow-lg border border-white/10"
             />
